@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**A Pokémon database application built with React and the Liqid design system**
+**A Pokémon database application built with React and the PLC design system**
 
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -15,13 +15,13 @@
 
 ## 🎯 Overview
 
-**Pokédex** is a modern Pokémon database application built with React and the Liqid design system. It provides a comprehensive interface for browsing, searching, and viewing detailed information about Pokémon from the Pokémon universe.
+**Pokédex** is a modern Pokémon database application built with React and the PLC design system. It provides a comprehensive interface for browsing, searching, and viewing detailed information about Pokémon from the Pokémon universe.
 
 ### ✨ Key Features
 
 - 🔍 **Pokémon Search** - Search for Pokémon by name, type, or ID
 - 📊 **Detailed Information** - View comprehensive Pokémon details
-- 🎨 **Beautiful UI** - Modern glassmorphism design
+- 🎨 **Beautiful UI** - Modern glassmorphism design using PLC components
 - 📱 **Responsive Design** - Works on desktop and mobile devices
 - 🌙 **Dark Mode** - Built-in dark mode support
 - 📋 **Pokémon List** - Browse all Pokémon with pagination
@@ -85,7 +85,7 @@ npm run preview
 | **Framework** | React | 19.x |
 | **Language** | TypeScript | 5.9.x |
 | **Build Tool** | Rsbuild | 1.6.x |
-| **Design System** | Liqid Components | Latest |
+| **Design System** | PLC Core | Latest |
 | **Styling** | Tailwind CSS | 4.0.x |
 | **Linting** | Biome | 2.3.x |
 
@@ -171,7 +171,7 @@ Code formatting and linting rules are configured in `biome.json`.
 
 - **react** ^19.2.3 - React library
 - **react-dom** ^19.2.3 - React DOM renderer
-- **liqid-components** - Liqid component library (local)
+- **plc-core** - PLC component library
 
 ### Development Dependencies
 
@@ -231,9 +231,9 @@ This project is licensed under the **MIT License**.
 
 ## 🔗 Related Projects
 
-- **[liqid-components](../liqid/liqid-components/)** - Core component library
-- **[liqid-ui](../liqid/liqid-ui/)** - Desktop UI library
-- **[liqid-showcase](../liqid-showcase/)** - Demo application
+- **[plc-core](../plc/plc-core/)** - Core component library
+- **[plc-ui](../plc/plc-ui/)** - Desktop UI library
+- **[plc-playground](../plc/plc-playground/)** - Component playground
 
 ---
 
@@ -246,7 +246,6 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-**Built with ❤️ using Liqid**
+**Built with ❤️ using PLC**
 
 </div>
-
